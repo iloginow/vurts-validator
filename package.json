@@ -1,0 +1,26 @@
+{
+  "name": "vurts-validator",
+  "version": "0.0.1",
+  "description": "Simple and reusable Node.js validator",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:iloginow/vurts-auth.git",
+  "author": "Ilia Loginov <i.loginow.by@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "validator",
+    "reusable",
+    "node.js"
+  ],
+  "engines": {
+    "node": ">=18.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "vurts-logger": "^0.0.4"
+  }
+}
