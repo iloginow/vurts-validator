@@ -33,4 +33,8 @@ declare module 'vurts-validator' {
     constructor(ctx: ValidatorContext);
     validate(data: any): boolean;
   }
+
+  export class ModuleError {
+    constructor(moduleName: string, message: string);
+  }
 }
