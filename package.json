@@ -1,6 +1,6 @@
 {
   "name": "vurts-validator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple and reusable Node.js validator",
   "main": "index.js",
   "type": "module",
